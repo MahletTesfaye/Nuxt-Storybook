@@ -1,0 +1,22 @@
+:root {
+    --backgroundPrimary: #FAA31B;
+    --backgroundSecondary: #13213B;
+}
+
+.card {
+    transform-style: preserve-3d;
+    transition: all 0.8s ease;
+}
+
+.card-front {
+    backface-visibility: hidden;
+}
+
+.card-back {
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+}
+
+.cardFlip {
+    transform: rotateY(180deg);
+}
